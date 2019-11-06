@@ -16,7 +16,7 @@ def reduce(array, sv = nil )
   else 
     sum = array[0]
     i = 1
-  i = 0 
+  end
   while i < array.length do 
     ele = array[i]
     sum = yield(sum, ele)
